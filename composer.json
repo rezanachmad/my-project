@@ -1,0 +1,24 @@
+{
+    "name": "rezanachmad/my-project",
+    "description": "My Project",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rezan Achmad",
+            "email": "rezanachmad@gmail.com"
+        }
+    ],
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:rezanachmad/hello-composer.git"
+        }
+    ],
+    "require" : {
+        "rezanachmad/hello-composer": "1.1.*"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
